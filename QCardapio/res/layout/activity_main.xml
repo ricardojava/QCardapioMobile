@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,9 +8,32 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
-</RelativeLayout>
+    <!-- bloco 1 -->
+    <LinearLayout 
+    android:id="@+id/layout1"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:background="#eeeeee"
+    android:layout_weight="1"
+    android:layout_margin="10dp"
+    android:gravity="center"    
+    >       
+        <!-- frag 1 -->
+        <fragment class="br.com.calltec.qcardapio.bla"
+            
+            />
+    </LinearLayout>
+    <!-- bloco 2 -->
+    <LinearLayout 
+        
+    >       
+        
+    </LinearLayout>
+    <!-- bloco 3 -->
+    <LinearLayout 
+        
+    >       
+        
+    </LinearLayout>
+</LinearLayout>
